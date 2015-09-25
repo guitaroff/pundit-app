@@ -1,5 +1,6 @@
 require 'rails_helper'
 require 'support/features/session_helper'
+require 'support/database_cleaner'
 include Features::SessionHelpers#, type: :feature
 
 feature 'Sign in', :devise do
